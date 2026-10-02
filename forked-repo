@@ -1,0 +1,15 @@
+$ curl -X GET https://api.github.com/repos/YOUR_USERNAME/YOUR_REPOSITORY
+{
+  "id": 123456789,
+  "name": "YOUR_REPOSITORY",
+  "full_name": "YOUR_USERNAME/YOUR_REPOSITORY",
+  "private": false,
+  "fork": true,
+  "html_url": "https://github.com/YOUR_USERNAME/YOUR_REPOSITORY",
+  "parent": {
+    "id": 987654321,
+    "name": "mcino-Introduction-to-Git-and-GitHub",
+    "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
+    "html_url": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub"
+  }
+}

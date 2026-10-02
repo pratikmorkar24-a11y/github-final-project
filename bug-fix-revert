@@ -1,0 +1,25 @@
+$ curl -X GET https://api.github.com/repos/YOUR_USERNAME/YOUR_REPOSITORY/pulls/1
+{
+  "number": 1,
+  "state": "closed",
+  "title": "Fix typo in README",
+  "html_url": "https://github.com/YOUR_USERNAME/YOUR_REPOSITORY/pull/1",
+  "head": {
+    "label": "YOUR_USERNAME:bug-fix-typo",
+    "ref": "bug-fix-typo",
+    "repo": {
+      "full_name": "YOUR_USERNAME/YOUR_REPOSITORY",
+      "fork": true,
+      "parent": {
+        "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub"
+      }
+    }
+  },
+  "base": {
+    "label": "YOUR_USERNAME:main",
+    "ref": "main",
+    "repo": {
+      "full_name": "YOUR_USERNAME/YOUR_REPOSITORY"
+    }
+  }
+}
