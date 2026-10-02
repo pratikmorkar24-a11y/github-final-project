@@ -1,11 +1,11 @@
-$ curl -X GET https://api.github.com/repos/YOUR_USERNAME/YOUR_REPOSITORY
+$ curl -X GET https://api.github.com/repos/pratikmorkar24-a11y/github-final-project
 {
   "id": 123456789,
-  "name": "YOUR_REPOSITORY",
-  "full_name": "YOUR_USERNAME/YOUR_REPOSITORY",
+  "name": "github-final-project",
+  "full_name": "pratikmorkar24-a11y/github-final-project",
   "private": false,
   "fork": true,
-  "html_url": "https://github.com/YOUR_USERNAME/YOUR_REPOSITORY",
+  "html_url": "https://github.com/pratikmorkar24-a11y/github-final-project",
   "parent": {
     "id": 987654321,
     "name": "mcino-Introduction-to-Git-and-GitHub",
